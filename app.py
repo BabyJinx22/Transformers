@@ -6,7 +6,7 @@ from datetime import date
 today = date.today().strftime("%A, %B %d, %Y")
 
 # OpenRouter API base and key
-openai.api_base = "https://openrouter.ai/api/v1 "
+openai.api_base = "https://openrouter.ai/api/v1"
 openai.api_key = st.secrets["openrouter_key"]
 
 st.title("AI Chatbot")
